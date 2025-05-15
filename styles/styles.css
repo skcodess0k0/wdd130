@@ -1,3 +1,4 @@
+/* Navigation styles */
 nav {
   background-color: darkblue;
   padding: 10px;
@@ -9,11 +10,18 @@ nav a {
   padding: 20px;
 }
 
+/* Main heading */
 h1 {
   color: darkblue;
 }
 
-img {
+/* Limit main width */
+main {
+  max-width: 840px;
+}
+
+/* Profile image inside main */
+main img {
   width: 150px;
   height: auto;
   border: 1px solid black;
@@ -21,6 +29,31 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
+/* Paragraph padding reset */
 p {
-  padding: 10px;
+  padding: 0;
+}
+
+/* Aside styling */
+aside {
+  width: 20rem; /* 320px approx */
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2); /* subtle transparent black border */
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+/* Image inside aside */
+aside img {
+  width: 200px;
+  height: auto; /* keeps aspect ratio to avoid distortion */
+}
+
+/* Footer styling */
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
